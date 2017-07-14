@@ -1,0 +1,14 @@
+### Day 3: Next permutation
+Given a [totally ordered](https://en.wikipedia.org/wiki/Total_order) set,
+find the next [permutation](https://en.wikipedia.org/wiki/Permutation#Permutations_of_totally_ordered_sets)
+of the current configuration: `FADE -> FAED -> FDAE -> FDEA -> ..`
+Even though almost every library offers a similar function,
+this tool can quickly become very useful in various competitions when you need to speed your algorithm up.
+
+#### Algorithm
+The algorithm itself is simple.
+
+1. Beginning from end, find the longest decreasing sequence 42**531**
+2. Denote the preceding item as pivot 4**2**531
+3. Swap pivot with the smallest higher item in the sequence 4**3**5**2**1
+4. Revert the sequence 43**125**.
