@@ -1,4 +1,4 @@
-package binrayAddition
+package binaryAddition
 
 import "testing"
 

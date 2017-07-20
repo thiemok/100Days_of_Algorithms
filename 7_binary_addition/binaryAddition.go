@@ -1,4 +1,4 @@
-package binrayAddition
+package binaryAddition
 
 func fullAdder(a bool, b bool, cIn bool) (s bool, cOut bool) {
 	s = (a != b) != cIn
